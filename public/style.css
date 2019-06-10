@@ -1,9 +1,69 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius:0px;
+}
+
 .jumbotron {
   display: flex;
-  align-items: center;
   background-image: url('img/corn-1908474_1920.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+  font-size: 160px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron p {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  background-color: transparent;
+  font-weight: bold;
+  border-color: white;
+  margin-bottom: 5px;
+  border-left-width: thick;
+}
+
+.title {
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon p {
+  margin-bottom: 30px;
+}
+
+.footer {
+  padding-top: 200px;
+  background-color: ;
+}
+
+.features {
+  background-color: aqua;
 }
