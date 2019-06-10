@@ -1,0 +1,9 @@
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('img/corn-1908474_1920.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
