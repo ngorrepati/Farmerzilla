@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Welcome to Farmerzilla. 
 
-## Available Scripts
 
-In the project directory, you can run:
+Farmerzilla is a web application to let farmers know whether or not it is a good day to plant or harvest their crops depending on the weather and month.
+
+Deployed Link:
 
 ### `npm start`
 
