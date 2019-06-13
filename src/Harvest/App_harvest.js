@@ -4,10 +4,10 @@ import './App_harvest.css';
 class App_harvest extends React.Component {
   render() {
     return {
-
-      
+      <div>
+      </div>
     };
-  }
+  };
 }
 
 export default App_harvest;
