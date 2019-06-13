@@ -1,8 +1,6 @@
-/*
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './App_plant.css';
+/*
 function App() {
   return (
     <div className="App">
@@ -23,6 +21,6 @@ function App() {
     </div>
   );
 }
-
-export default App;
 */
+
+export default App_plant;
