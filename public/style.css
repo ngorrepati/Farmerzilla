@@ -7,7 +7,7 @@ body {
   border-radius:0px;
 }
 
-.jumbotron {
+.head {
   display: flex;
   background-image: url('img/corn-1908474_1920.jpg');
   background-size: cover;
@@ -17,21 +17,21 @@ body {
   margin-bottom: 0px;
 }
 
-.jumbotron h1 {
+.head h1 {
   font-size: 160px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
-.jumbotron h3 {
+.head h3 {
   font-size: 45px;
   font-weight: bold;
   margin: 0;
   color: #fff;
 }
 
-.jumbotron p {
+.head p {
   font-size: 25px;
   font-weight: bold;
   margin: 0;

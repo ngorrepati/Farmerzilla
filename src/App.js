@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
+import Spinach from './spinach';
 
 class App extends React.Component {
   render() {
     return (
       <div id='app'>
-        <div id= 'rice'>
-
-        </div>
-        <div id= 'corn'>
+        <Spinach />
+        <div id= 'radishes'>
 
         </div>
       </div>
