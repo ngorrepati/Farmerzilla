@@ -5,11 +5,14 @@ class Display extends React.Component {
   render() {
     return(
       <div class="container-fluid spinach">
-        <div class="row">
-          {this.props.city && <p>City: {this.props.city}</p>}
-          {this.props.country && <p>Country: {this.props.country}</p>}
+        <div class="row text-center" id="location">
+          {this.props.city && <h4>City: {this.props.city}</h4>}
+          {this.props.country && <h4>Country: {this.props.country}</h4>}
         </div>
-          <div class="row">
+          <div class="row text-center">
+            {this.props.date0 && <h4 id="forecast">Weather Forecast</h4>}
+          </div>
+          <div class="row text-center">
             <div class="col-md-2">
               {this.props.date0 && <p>Date: {this.props.date0}</p>}
               {this.props.icon0 && <img src={"https:www.weatherbit.io/static/img/icons/" + this.props.icon0 + ".png"} />}
@@ -47,7 +50,7 @@ class Display extends React.Component {
               {this.props.temperature5 && <p>Temperature: {this.props.temperature5}</p>}
             </div>
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-2">
               {this.props.date6 && <p>Date: {this.props.date6}</p>}
               {this.props.icon6 && <img src={"https:www.weatherbit.io/static/img/icons/" + this.props.icon6 + ".png"} />}
@@ -85,7 +88,7 @@ class Display extends React.Component {
               {this.props.temperature11 && <p>Temperature: {this.props.temperature11}</p>}
             </div>
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-2">
               {this.props.date12 && <p>Date: {this.props.date12}</p>}
               {this.props.icon12 && <img src={"https:www.weatherbit.io/static/img/icons/" + this.props.icon12 + ".png"} />}

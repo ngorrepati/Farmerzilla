@@ -1,13 +1,18 @@
 import React from 'react';
+import './spinach_form.css'
 
 class Form extends React.Component {
   render() {
     return(
-      <form onSubmit={this.props.getClimateData}>
-        <input type="text" name="City" placeholder="City or City, State"/>
-        <input type="text" name="Country" placeholder="Country (optional)"/>
-        <button>Can I Plant Spinach Today?</button>
-      </form>
+      <div class="container-fluid text-center form">
+        <form onSubmit={this.props.getClimateData}>
+          <input class="enter" type="text" name="City" placeholder="City or City, State"/>
+          <br/>
+          <input class="enter" type="text" name="Country" placeholder="Country (optional)"/>
+          <br/>
+          <button class="click">Can I Plant Spinach Today? »</button>
+        </form>
+      </div>
     );
   };
 }
