@@ -1,0 +1,31 @@
+.radish_title {
+  background: #FFEFBA;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom: 0px;
+}
+
+.radish_title h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+.radish_title img {
+  margin-bottom: 15px;
+  height: 20%;
+  width: 20%;
+}
+
+.radish_title p {
+  margin-top: 20px;
+  font-size: 15px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: 40px;
+  margin-right: 40px;
+}

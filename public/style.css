@@ -110,6 +110,11 @@ footer   {
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   color: #777;
-  padding: 40px;
+  padding top: 40px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+#ending {
+  padding-top: 35px;
 }
