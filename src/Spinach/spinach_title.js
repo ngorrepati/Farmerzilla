@@ -23,7 +23,7 @@ class Title extends React.Component {
             <div class="icon" id="flower">
               <img src="https://image.flaticon.com/icons/svg/403/403627.svg" alt="Plant"/>
               <p>The ideal conditions for cultivating spinach include a temperature between 5 degrees Celcius and
-              24 degrees Celcius for the next few weeks.</p>
+              25 degrees Celcius for the next few weeks.</p>
             </div>
           </div>
         </div>

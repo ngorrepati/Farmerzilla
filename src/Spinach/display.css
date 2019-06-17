@@ -1,0 +1,49 @@
+h4 {
+  color: #777;
+}
+
+#forecast {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#final {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+#location {
+  margin-bottom: 17px;
+}
+
+.col-md-2 {
+  border-top: 1px solid #777;
+  border-right: 1px solid #777;
+}
+
+.col-md-4 {
+  border-top: 1px solid #777;
+}
+
+.col-md-2 h5 {
+  font-size: 16px;
+  color: #777;
+  font-weight: 550;
+}
+
+.col-md-2 img {
+  width: 45%;
+  height: 45%;
+}
+
+.col-md-2 p {
+  font-size: 25px;
+  color: #777;
+  font-weight: 550;
+}
+
+#ruling {
+  margin-top: 30px;
+}

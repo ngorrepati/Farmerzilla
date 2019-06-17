@@ -1,0 +1,18 @@
+
+#decision img {
+  margin-bottom: 15px;
+  height: 40%;
+  width: 40%;
+  vertical-align: middle;
+}
+
+#decision p {
+  vertical-align: middle;
+  color: #777;
+  font-size: 20px;
+  padding-top: 60px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
