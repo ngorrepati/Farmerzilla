@@ -8,7 +8,7 @@ class Radish_title extends React.Component {
         <div class="row title">
           <br/>
           <br/>
-          <h1>When to Plant Radishes?</h1>
+          <h1>Should I Plant Radishes?</h1>
           <br/>
         </div>
         <div class="row">

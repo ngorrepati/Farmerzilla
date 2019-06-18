@@ -8,7 +8,7 @@ class Title extends React.Component {
         <div class="row title">
           <br/>
           <br/>
-          <h1>When to Plant Spinach?</h1>
+          <h1>Should I Plant Spinach?</h1>
           <br/>
         </div>
         <div class="row">

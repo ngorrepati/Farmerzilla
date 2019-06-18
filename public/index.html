@@ -3,12 +3,15 @@
   <head>
     <title>Farmerzilla</title>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/style.css">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -18,7 +21,7 @@
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="#root">When to Plant Spinach and Radishes?</a></li>
+          <li><a href="#root">Should I Plant Spinach and Radishes?</a></li>
         </ul>
       </div>
     </nav>
@@ -28,10 +31,10 @@
           <h1>Farmerzilla</h1>
           <h3>By Nikhil Gorrepati</h3>
           <br><br>
-          <p>A web application to let farmers and gardeners know if it is a good day to plant Spinach and Radishes depending on the weather and location</p>
+          <p>A web application to let farmers and gardeners know if today a good day to plant Spinach and Radishes depending on the weather and location</p>
           <br><br><br>
           <p>
-            <a class="btn btn-lg" href="#root" role="button">When to Plant Spinach and Radishes? »</a>
+            <a class="btn btn-lg" href="#root" role="button">Should I Plant Spinach and Radishes? »</a>
           </p>
         </div>
       </div>
@@ -47,7 +50,7 @@
         <div class="col-md-6">
           <div class="icon" id="pepper">
             <img src="https://image.flaticon.com/icons/svg/1398/1398230.svg" alt="Harvest">
-            <h3>When to Plant Spinach?</h3>
+            <h3>Should I Plant Spinach?</h3>
             <p>Displays whether or not today is a good day to plant Spinach depending on
               your location and the weather</p>
           </div>
@@ -55,7 +58,7 @@
         <div class="col-md-6">
           <div class="icon" id="flower">
             <img src="https://image.flaticon.com/icons/svg/188/188327.svg" alt="Plant">
-            <h3>When to Plant Radishes?</h3>
+            <h3>Should I Plant Radishes?</h3>
             <p>Displays whether or not today is a good day to plant Radishes depending on
               your location and the weather</p>
           </div>
@@ -69,9 +72,10 @@
       <div class="footer-copyright text-center py-3">
         <div id="ending">
         Farmerzilla 2019:
-        <a href="/index.html"> farmerzilla.io</a>
+        <a href="%PUBLIC_URL%/index.html"> farmerzilla.io</a>
       </div>
         <br/>
+        <p>Icon made by turkkub from www.flaticon.com</p>
         <p>Icon made by turkkub from www.flaticon.com</p>
         <p>Icon made by Roundicons from www.flaticon.com</p>
         <p>Icon made by justicon from www.flaticon.com</p>
