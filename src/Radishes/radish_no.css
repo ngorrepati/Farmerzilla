@@ -4,6 +4,7 @@
   height: 40%;
   width: 40%;
   vertical-align: middle;
+  object-fit: contain; 
 }
 
 #decision p {
